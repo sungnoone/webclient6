@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.inline-svg-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.inline-png-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.external-png-1.4.2.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/jquery.mobile-1.4.2.js"></script>
+    <script src="js/strophe.js"></script>
+    <script src="js/index.js"></script>
+    <title>取得好友清單</title>
+</head>
+<body>
+<div data-role="page" id="page_main" style="margin-top: 20px">
+    <div id="chat_title" data-role="header">
+    </div>
+    <div data-role="content">
+        <a href="#" data-role="button" onclick="btn_get_contact();">Get</a>
+        <ul id="contact_ul" data-role="listview" style="margin-top: 10px"></ul>
+    </div>
+    <div id="message"></div>
+</div>
+</body>
+</html>
